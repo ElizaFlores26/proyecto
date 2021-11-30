@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>UACM</title>
+        <meta charset="UTF-8">
+        <link href="estilos/estiloMenu.css" rel="stylesheet" type="text/css" />
+        <link href="contenido/estilos/estiloLibros.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class = "menu">
+            <blockquote>
+                <br><br>
+                <img src= "imagenes/image.png"/>
+                <h2>Elizabeth Tepexicuapan Flores</h2>
+                <h5><em>Estudiante de Ing. Software</em></h5>
+            </blockquote>
+            <br><br><br>
+            <nav>
+                <a href="indexE.html">Acerca de mi </a>
+                <a href="indexE.html"> Conocimientos</a>
+                <a href="indexE.html">trabajos</a>
+                <a href="indexE.html"> hobies</a>
+                <a href="#">Libros</a>
+            </nav>
+            <div class = "redes-container">
+                <ul>
+                  <li><a href="#" class = "facebook"><i class = "fa fa-facebook"></i></a> </li>
+                  <li><a href="#" class = "twitter"><i class = "fa fa-twitter"></i></a> </li>
+                  <li><a href="#" class = "linkedin"><i class = "fa fa-linkedin"></i></a> </li>
+                  <li><a href="#" class = "dribbble"><i class = "fa fa-dribbble"></i></a> </li>
+                  <li><a href="#" class = "rss"><i class = "fa fa-rss"></i></a> </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class = "libro">
+            <div class = "titulo">
+                <h1>Libros</h1>
+                <hr class = "sub">
+                <br>
+                Mi pasatiempo favorito es la lectura, les presento mi top 5 de libros favoritas 
+            </div>
+            <div class = "botones">
+                <img class = "btnAgregar" src = "contenido/img/agregar.png">
+                <img class = "btnEliminar" src = "contenido/img/eliminar.png"> 
+            </div>
+                
+            <div class = "contenido">
+                <div class = "informacion">
+                    <table id = "tabla"> 
+                        <tr>
+                            <th>Top</th> <th>Libro</th> <th>Autor</th><th>Calificación</th>
+                        </tr>
+                        <tr class = "impar" id  = "fila1">
+                            <td>1</td> <td>Persona normal</td> <td>Benito taibo </td><td>10</td>
+                        </tr>
+                        <tr class = "par" id  = "fila2">
+                            <td>2</td> <td>violet y finch</td><td>jennifer niven</td> <td>10</td>
+                        </tr> 
+                        <tr class = "impar"  id = "fila3">
+                            <td>3</td> <td>Despues </td><td>Stephen king</td> <td>9.8</td>
+                        </tr>    
+                        <tr class = "par" id = "fila4">
+                            <td>4</td> <td>Delirium</td><td>Lauren Oliver</td> <td>9.5</td>
+                        </tr> 
+                        <tr class = "impar" id = "fila5" >
+                            <td>5</td><td>Orgullo y prejuicio</td><td>Jane Austen</td><td>9</td>
+                        </tr>  
+                    </table>
+                </div> 
+
+                <div class = "imagenes">
+                    <h3 class ="titulo" id = "titulo">Persona normal</h3>
+                    <img class = "imagenCambia" id = "imagenCambia" src = "contenido/img/personaNormal.png">
+                </div>
+
+            </div>
+                
+        </div>
+        <script type = "text/JavaScript" src = "contenido/javaScripts/imgComp.js"></script>
+        <script type = "text/JavaScript" src = "contenido/javaScripts/compoTabla.js"></script>
+    </body>
+</html>    
